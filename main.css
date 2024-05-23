@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDF8FF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#conteudo{
+    width: 60%;
+    margin: auto;
+}
+
+#form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline;
+    font-family: "Pacifico", cursive;
+    font-size:96px;
+    font-weight: 400;
+    font-style: normal;
+    color: #4D6BB4;
+}
+
+header img{
+    width: 96px;
+    margin-right: 20px;
+}
+
+header{
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+table{
+    background-color: #e83faabe;
+    color: #FFF;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+table td, table th{
+    border-right: 5px solid #fff;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+
+
+}
+
+#btn-salvar{
+    font-weight: bolder;
+    color: #FFF;
+    background-color: #6B54A6;
+    text-transform: uppercase;
+    width: 15%;
+
+}
+
+#btn-salvar, input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input{
+    border: 2px solid #6B54A6;
+    text-transform: uppercase;
+}
+
+#input-nome{
+    width: 60%;
+}
+
+#input-tel{
+    width: 20%;
+}

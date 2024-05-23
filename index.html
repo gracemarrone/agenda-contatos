@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda Contatos</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="conteudo">
+            <header>
+                <img src="./imagens/logomarca.png" alt="Imagem de um telefone emitindo vibrações sonoras">
+                <h1>Agenda de Contatos</h1>
+            </header>
+            <main>
+
+                <form id="form">
+                    <input id="input-nome" type="text" placeholder="Nome" required>
+                    <input id="input-tel" type="tel" placeholder="(00) 00000-0000" minlength="14" maxlength="15" required>
+                    <button id="btn-salvar">Adicionar</button>
+                </form>
+
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome do Contato
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+
+</html>
